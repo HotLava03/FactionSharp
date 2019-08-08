@@ -1,0 +1,73 @@
+################################################
+#             Powerboosts Messages             #
+################################################
+
+# Usage prefix
+usagePrefix: "&9Usage &8&l» &7"
+
+# Success prefix
+successPrefix: "&aPowerboosts &8&l» &7"
+
+# Error prefix
+errorPrefix: "&cPowerboosts &8&l» &7"
+
+# Staff prefix
+staffPrefix: "&6Powerboosts &8&l» &7"
+
+################################################
+#               Success Messages               #
+################################################
+
+buyPowerSuccess: "Successfully purchased power for your faction."
+powerboostAmt: "Amount of powerboosts your faction has purchased: &f"
+
+################################################
+#                 Help Messages                #
+################################################
+
+# Buypower General help [HAS VARIABLE AT THE END]
+buyPowerHelp: "/buypower &8&l- &7Buy power for your faction. Use /buypower&f confirm &7to confirm purchase. Price for the next&f powerboost&7: &f"
+
+# Buypower Confirm help
+buyPowerConfirmHelp: "/buypower &f[faction] <confirm> &8&l- &7Buy power for your faction."
+
+################################################
+#                 Staff Messages               #
+################################################
+
+# Buy other success
+buyPowerOtherSuccess: "Due to your rank/permissions, money was&f not &7taken from your balance. Successfully added power to the faction &f"
+
+# Reload success
+reloadSuccess: "Successfully reloaded&f Powerboosts&7' config."
+
+################################################
+#                 Error Messages               #
+################################################
+
+# Invalid usage
+invalidUsage: "Invalid usage."
+
+# Not enough money [Has variable]
+noMoney: "You do not have enough money! You need at least &f"
+
+# No permissions
+noPerms: "You do not have permission to run this command."
+
+# No faction
+noFaction: "You need to be in a faction in order to do this."
+
+# Not leader or officer
+notOfficer: "You must be a&f leader &7or&f officer &7in your faction in order to purchase power."
+
+# Fatal error
+fatal: "A fatal error has occurred. Please contact an administrator to check console for errors."
+
+# Only player factions
+onlyPlayerFactions: "You can only buy power for player factions."
+
+# Faction not found
+notFound: "Faction not found."
+
+# Too many powerboosts
+tooManyPowerboosts: "Your faction has already exceeded the powerboost limit."

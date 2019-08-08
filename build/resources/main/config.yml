@@ -1,0 +1,21 @@
+################################################
+#              Powerboosts Config              #
+################################################
+
+# Maximum amount of powerboosts per faction
+maxPowerboosts: 5
+
+# Powerboost price multiplier (%)
+multiplier: 10
+
+# Amount of power given by powerboost
+powerGiven: 10
+
+# Base price for powerboosts
+basePrice: 100000
+
+# Powerboost limit - 30 means 300 given power in case powerGiven: 10 [for example]
+limit: 30
+
+# If anything goes wrong, delete this file and run /powerboosts reload to regen this config.
+# Same for any other file in plugins/FactionSharp

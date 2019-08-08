@@ -1,0 +1,19 @@
+name: FactionSharp
+version: 1.0-SNAPSHOT
+main: io.github.hotlava03.factionsharp.FactionSharp
+api-version: "1.13"
+depend: [Factions, Vault]
+authors: [HotLava03]
+description: AntiMinecartGrief + Powerboosts
+website: hotlava03.github.io
+commands:
+  buypower:
+    description: Buy power for your faction
+    aliases: [bp, powerboost]
+  powerboosts:
+    description: Main command
+permissions:
+  powerboosts.admin:
+    description: Bypass restrictions and economy on purchasing power for other factions
+  powerboosts.use:
+    description: Use the plugin generally
